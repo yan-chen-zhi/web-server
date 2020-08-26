@@ -49,10 +49,10 @@ RM = "F:\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\LENOVO\CLionProjects\web-server
+CMAKE_SOURCE_DIR = C:\GitHub_web-server\web-server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\LENOVO\CLionProjects\web-server\cmake-build-debug
+CMAKE_BINARY_DIR = C:\GitHub_web-server\web-server\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -81,9 +81,9 @@ edit_cache\fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\LENOVO\CLionProjects\web-server\cmake-build-debug\CMakeFiles C:\Users\LENOVO\CLionProjects\web-server\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\GitHub_web-server\web-server\cmake-build-debug\CMakeFiles C:\GitHub_web-server\web-server\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\LENOVO\CLionProjects\web-server\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\GitHub_web-server\web-server\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -124,6 +124,60 @@ web_server\fast:
 	$(MAKE) -f CMakeFiles\web_server.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\web_server.dir\build
 .PHONY : web_server\fast
 
+base\CountDownLatch.obj: base\CountDownLatch.cpp.obj
+
+.PHONY : base\CountDownLatch.obj
+
+# target to build an object file
+base\CountDownLatch.cpp.obj:
+	$(MAKE) -f CMakeFiles\web_server.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\web_server.dir\base\CountDownLatch.cpp.obj
+.PHONY : base\CountDownLatch.cpp.obj
+
+base\CountDownLatch.i: base\CountDownLatch.cpp.i
+
+.PHONY : base\CountDownLatch.i
+
+# target to preprocess a source file
+base\CountDownLatch.cpp.i:
+	$(MAKE) -f CMakeFiles\web_server.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\web_server.dir\base\CountDownLatch.cpp.i
+.PHONY : base\CountDownLatch.cpp.i
+
+base\CountDownLatch.s: base\CountDownLatch.cpp.s
+
+.PHONY : base\CountDownLatch.s
+
+# target to generate assembly for a file
+base\CountDownLatch.cpp.s:
+	$(MAKE) -f CMakeFiles\web_server.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\web_server.dir\base\CountDownLatch.cpp.s
+.PHONY : base\CountDownLatch.cpp.s
+
+base\FileUtil.obj: base\FileUtil.cpp.obj
+
+.PHONY : base\FileUtil.obj
+
+# target to build an object file
+base\FileUtil.cpp.obj:
+	$(MAKE) -f CMakeFiles\web_server.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\web_server.dir\base\FileUtil.cpp.obj
+.PHONY : base\FileUtil.cpp.obj
+
+base\FileUtil.i: base\FileUtil.cpp.i
+
+.PHONY : base\FileUtil.i
+
+# target to preprocess a source file
+base\FileUtil.cpp.i:
+	$(MAKE) -f CMakeFiles\web_server.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\web_server.dir\base\FileUtil.cpp.i
+.PHONY : base\FileUtil.cpp.i
+
+base\FileUtil.s: base\FileUtil.cpp.s
+
+.PHONY : base\FileUtil.s
+
+# target to generate assembly for a file
+base\FileUtil.cpp.s:
+	$(MAKE) -f CMakeFiles\web_server.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\web_server.dir\base\FileUtil.cpp.s
+.PHONY : base\FileUtil.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -160,6 +214,12 @@ help:
 	@echo ... rebuild_cache
 	@echo ... web_server
 	@echo ... edit_cache
+	@echo ... base/CountDownLatch.obj
+	@echo ... base/CountDownLatch.i
+	@echo ... base/CountDownLatch.s
+	@echo ... base/FileUtil.obj
+	@echo ... base/FileUtil.i
+	@echo ... base/FileUtil.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

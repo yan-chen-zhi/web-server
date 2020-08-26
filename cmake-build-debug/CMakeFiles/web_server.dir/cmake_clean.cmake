@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/web_server.dir/main.cpp.obj"
+  "CMakeFiles/web_server.dir/base/CountDownLatch.cpp.obj"
+  "CMakeFiles/web_server.dir/base/FileUtil.cpp.obj"
   "web_server.pdb"
   "web_server.exe"
   "web_server.exe.manifest"

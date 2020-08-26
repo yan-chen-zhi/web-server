@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/LENOVO/CLionProjects/web-server/cmake-build-debug"/>
+				<Option working_dir="C:/GitHub_web-server/web-server/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\LENOVO\CLionProjects\web-server\cmake-build-debug\Makefile VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\LENOVO\CLionProjects\web-server\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\LENOVO\CLionProjects\web-server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\LENOVO\CLionProjects\web-server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\GitHub_web-server\web-server\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\GitHub_web-server\web-server\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\GitHub_web-server\web-server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\GitHub_web-server\web-server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/LENOVO/CLionProjects/web-server/cmake-build-debug"/>
+				<Option working_dir="C:/GitHub_web-server/web-server/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\LENOVO\CLionProjects\web-server\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\LENOVO\CLionProjects\web-server\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\LENOVO\CLionProjects\web-server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\LENOVO\CLionProjects\web-server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\GitHub_web-server\web-server\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\GitHub_web-server\web-server\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\GitHub_web-server\web-server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\GitHub_web-server\web-server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="web_server">
-				<Option output="C:/Users/LENOVO/CLionProjects/web-server/cmake-build-debug/web_server.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/LENOVO/CLionProjects/web-server/cmake-build-debug"/>
+				<Option output="C:/GitHub_web-server/web-server/cmake-build-debug/web_server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/GitHub_web-server/web-server/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -44,15 +44,15 @@
 					<Add directory="E:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\LENOVO\CLionProjects\web-server\cmake-build-debug\Makefile VERBOSE=1 web_server"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\LENOVO\CLionProjects\web-server\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\LENOVO\CLionProjects\web-server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\LENOVO\CLionProjects\web-server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\GitHub_web-server\web-server\cmake-build-debug\Makefile VERBOSE=1 web_server"/>
+					<CompileFile command="nmake /NOLOGO /f C:\GitHub_web-server\web-server\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\GitHub_web-server\web-server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\GitHub_web-server\web-server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="web_server/fast">
-				<Option output="C:/Users/LENOVO/CLionProjects/web-server/cmake-build-debug/web_server.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/LENOVO/CLionProjects/web-server/cmake-build-debug"/>
+				<Option output="C:/GitHub_web-server/web-server/cmake-build-debug/web_server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/GitHub_web-server/web-server/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -67,36 +67,48 @@
 					<Add directory="E:\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\LENOVO\CLionProjects\web-server\cmake-build-debug\Makefile VERBOSE=1 web_server/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\LENOVO\CLionProjects\web-server\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\LENOVO\CLionProjects\web-server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\LENOVO\CLionProjects\web-server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\GitHub_web-server\web-server\cmake-build-debug\Makefile VERBOSE=1 web_server/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\GitHub_web-server\web-server\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\GitHub_web-server\web-server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\GitHub_web-server\web-server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/LENOVO/CLionProjects/web-server/cmake-build-debug"/>
+				<Option working_dir="C:/GitHub_web-server/web-server/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\LENOVO\CLionProjects\web-server\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\LENOVO\CLionProjects\web-server\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\LENOVO\CLionProjects\web-server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\LENOVO\CLionProjects\web-server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\GitHub_web-server\web-server\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\GitHub_web-server\web-server\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\GitHub_web-server\web-server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\GitHub_web-server\web-server\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/LENOVO/CLionProjects/web-server/base/Condition.h">
+		<Unit filename="C:/GitHub_web-server/web-server/base/Condition.h">
 			<Option target="web_server"/>
 		</Unit>
-		<Unit filename="C:/Users/LENOVO/CLionProjects/web-server/base/MutexLock.h">
+		<Unit filename="C:/GitHub_web-server/web-server/base/CountDownLatch.cpp">
 			<Option target="web_server"/>
 		</Unit>
-		<Unit filename="C:/Users/LENOVO/CLionProjects/web-server/base/noncopyable.h">
+		<Unit filename="C:/GitHub_web-server/web-server/base/CountDownLatch.h">
 			<Option target="web_server"/>
 		</Unit>
-		<Unit filename="C:/Users/LENOVO/CLionProjects/web-server/main.cpp">
+		<Unit filename="C:/GitHub_web-server/web-server/base/FileUtil.cpp">
 			<Option target="web_server"/>
 		</Unit>
-		<Unit filename="C:/Users/LENOVO/CLionProjects/web-server/CMakeLists.txt">
+		<Unit filename="C:/GitHub_web-server/web-server/base/FileUtil.h">
+			<Option target="web_server"/>
+		</Unit>
+		<Unit filename="C:/GitHub_web-server/web-server/base/MutexLock.h">
+			<Option target="web_server"/>
+		</Unit>
+		<Unit filename="C:/GitHub_web-server/web-server/base/noncopyable.h">
+			<Option target="web_server"/>
+		</Unit>
+		<Unit filename="C:/GitHub_web-server/web-server/main.cpp">
+			<Option target="web_server"/>
+		</Unit>
+		<Unit filename="C:/GitHub_web-server/web-server/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

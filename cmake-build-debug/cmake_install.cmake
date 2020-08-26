@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/LENOVO/CLionProjects/web-server
+# Install script for directory: C:/GitHub_web-server/web-server
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/LENOVO/CLionProjects/web-server/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/GitHub_web-server/web-server/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
