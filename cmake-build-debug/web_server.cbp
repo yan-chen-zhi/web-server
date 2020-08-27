@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/GitHub_web-server/web-server/base/AsyncLogging.cpp">
+			<Option target="web_server"/>
+		</Unit>
+		<Unit filename="C:/GitHub_web-server/web-server/base/AsyncLogging.h">
+			<Option target="web_server"/>
+		</Unit>
 		<Unit filename="C:/GitHub_web-server/web-server/base/Condition.h">
 			<Option target="web_server"/>
 		</Unit>
@@ -99,7 +105,25 @@
 		<Unit filename="C:/GitHub_web-server/web-server/base/FileUtil.h">
 			<Option target="web_server"/>
 		</Unit>
+		<Unit filename="C:/GitHub_web-server/web-server/base/LogFile.cpp">
+			<Option target="web_server"/>
+		</Unit>
+		<Unit filename="C:/GitHub_web-server/web-server/base/LogFile.h">
+			<Option target="web_server"/>
+		</Unit>
+		<Unit filename="C:/GitHub_web-server/web-server/base/LogStream.cpp">
+			<Option target="web_server"/>
+		</Unit>
+		<Unit filename="C:/GitHub_web-server/web-server/base/LogStream.h">
+			<Option target="web_server"/>
+		</Unit>
 		<Unit filename="C:/GitHub_web-server/web-server/base/MutexLock.h">
+			<Option target="web_server"/>
+		</Unit>
+		<Unit filename="C:/GitHub_web-server/web-server/base/Thread.cpp">
+			<Option target="web_server"/>
+		</Unit>
+		<Unit filename="C:/GitHub_web-server/web-server/base/Thread.h">
 			<Option target="web_server"/>
 		</Unit>
 		<Unit filename="C:/GitHub_web-server/web-server/base/noncopyable.h">

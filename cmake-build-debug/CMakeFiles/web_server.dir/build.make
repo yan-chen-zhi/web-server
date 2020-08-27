@@ -115,11 +115,91 @@ CMakeFiles\web_server.dir\base\FileUtil.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\web_server.dir\base\FileUtil.cpp.s /c C:\GitHub_web-server\web-server\base\FileUtil.cpp
 <<
 
+CMakeFiles\web_server.dir\base\LogFile.cpp.obj: CMakeFiles\web_server.dir\flags.make
+CMakeFiles\web_server.dir\base\LogFile.cpp.obj: ..\base\LogFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\GitHub_web-server\web-server\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/web_server.dir/base/LogFile.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\web_server.dir\base\LogFile.cpp.obj /FdCMakeFiles\web_server.dir\ /FS -c C:\GitHub_web-server\web-server\base\LogFile.cpp
+<<
+
+CMakeFiles\web_server.dir\base\LogFile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/web_server.dir/base/LogFile.cpp.i"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\web_server.dir\base\LogFile.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\GitHub_web-server\web-server\base\LogFile.cpp
+<<
+
+CMakeFiles\web_server.dir\base\LogFile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/web_server.dir/base/LogFile.cpp.s"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\web_server.dir\base\LogFile.cpp.s /c C:\GitHub_web-server\web-server\base\LogFile.cpp
+<<
+
+CMakeFiles\web_server.dir\base\AsyncLogging.cpp.obj: CMakeFiles\web_server.dir\flags.make
+CMakeFiles\web_server.dir\base\AsyncLogging.cpp.obj: ..\base\AsyncLogging.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\GitHub_web-server\web-server\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/web_server.dir/base/AsyncLogging.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\web_server.dir\base\AsyncLogging.cpp.obj /FdCMakeFiles\web_server.dir\ /FS -c C:\GitHub_web-server\web-server\base\AsyncLogging.cpp
+<<
+
+CMakeFiles\web_server.dir\base\AsyncLogging.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/web_server.dir/base/AsyncLogging.cpp.i"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\web_server.dir\base\AsyncLogging.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\GitHub_web-server\web-server\base\AsyncLogging.cpp
+<<
+
+CMakeFiles\web_server.dir\base\AsyncLogging.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/web_server.dir/base/AsyncLogging.cpp.s"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\web_server.dir\base\AsyncLogging.cpp.s /c C:\GitHub_web-server\web-server\base\AsyncLogging.cpp
+<<
+
+CMakeFiles\web_server.dir\base\LogStream.cpp.obj: CMakeFiles\web_server.dir\flags.make
+CMakeFiles\web_server.dir\base\LogStream.cpp.obj: ..\base\LogStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\GitHub_web-server\web-server\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/web_server.dir/base/LogStream.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\web_server.dir\base\LogStream.cpp.obj /FdCMakeFiles\web_server.dir\ /FS -c C:\GitHub_web-server\web-server\base\LogStream.cpp
+<<
+
+CMakeFiles\web_server.dir\base\LogStream.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/web_server.dir/base/LogStream.cpp.i"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\web_server.dir\base\LogStream.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\GitHub_web-server\web-server\base\LogStream.cpp
+<<
+
+CMakeFiles\web_server.dir\base\LogStream.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/web_server.dir/base/LogStream.cpp.s"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\web_server.dir\base\LogStream.cpp.s /c C:\GitHub_web-server\web-server\base\LogStream.cpp
+<<
+
+CMakeFiles\web_server.dir\base\Thread.cpp.obj: CMakeFiles\web_server.dir\flags.make
+CMakeFiles\web_server.dir\base\Thread.cpp.obj: ..\base\Thread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\GitHub_web-server\web-server\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/web_server.dir/base/Thread.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\web_server.dir\base\Thread.cpp.obj /FdCMakeFiles\web_server.dir\ /FS -c C:\GitHub_web-server\web-server\base\Thread.cpp
+<<
+
+CMakeFiles\web_server.dir\base\Thread.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/web_server.dir/base/Thread.cpp.i"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\web_server.dir\base\Thread.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\GitHub_web-server\web-server\base\Thread.cpp
+<<
+
+CMakeFiles\web_server.dir\base\Thread.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/web_server.dir/base/Thread.cpp.s"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\web_server.dir\base\Thread.cpp.s /c C:\GitHub_web-server\web-server\base\Thread.cpp
+<<
+
 # Object files for target web_server
 web_server_OBJECTS = \
 "CMakeFiles\web_server.dir\main.cpp.obj" \
 "CMakeFiles\web_server.dir\base\CountDownLatch.cpp.obj" \
-"CMakeFiles\web_server.dir\base\FileUtil.cpp.obj"
+"CMakeFiles\web_server.dir\base\FileUtil.cpp.obj" \
+"CMakeFiles\web_server.dir\base\LogFile.cpp.obj" \
+"CMakeFiles\web_server.dir\base\AsyncLogging.cpp.obj" \
+"CMakeFiles\web_server.dir\base\LogStream.cpp.obj" \
+"CMakeFiles\web_server.dir\base\Thread.cpp.obj"
 
 # External object files for target web_server
 web_server_EXTERNAL_OBJECTS =
@@ -127,9 +207,13 @@ web_server_EXTERNAL_OBJECTS =
 web_server.exe: CMakeFiles\web_server.dir\main.cpp.obj
 web_server.exe: CMakeFiles\web_server.dir\base\CountDownLatch.cpp.obj
 web_server.exe: CMakeFiles\web_server.dir\base\FileUtil.cpp.obj
+web_server.exe: CMakeFiles\web_server.dir\base\LogFile.cpp.obj
+web_server.exe: CMakeFiles\web_server.dir\base\AsyncLogging.cpp.obj
+web_server.exe: CMakeFiles\web_server.dir\base\LogStream.cpp.obj
+web_server.exe: CMakeFiles\web_server.dir\base\Thread.cpp.obj
 web_server.exe: CMakeFiles\web_server.dir\build.make
 web_server.exe: CMakeFiles\web_server.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\GitHub_web-server\web-server\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable web_server.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\GitHub_web-server\web-server\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable web_server.exe"
 	"F:\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\web_server.dir --manifests  -- C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\web_server.dir\objects1.rsp @<<
  /out:web_server.exe /implib:web_server.lib /pdb:C:\GitHub_web-server\web-server\cmake-build-debug\web_server.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

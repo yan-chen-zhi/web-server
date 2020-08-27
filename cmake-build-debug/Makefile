@@ -124,6 +124,33 @@ web_server\fast:
 	$(MAKE) -f CMakeFiles\web_server.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\web_server.dir\build
 .PHONY : web_server\fast
 
+base\AsyncLogging.obj: base\AsyncLogging.cpp.obj
+
+.PHONY : base\AsyncLogging.obj
+
+# target to build an object file
+base\AsyncLogging.cpp.obj:
+	$(MAKE) -f CMakeFiles\web_server.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\web_server.dir\base\AsyncLogging.cpp.obj
+.PHONY : base\AsyncLogging.cpp.obj
+
+base\AsyncLogging.i: base\AsyncLogging.cpp.i
+
+.PHONY : base\AsyncLogging.i
+
+# target to preprocess a source file
+base\AsyncLogging.cpp.i:
+	$(MAKE) -f CMakeFiles\web_server.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\web_server.dir\base\AsyncLogging.cpp.i
+.PHONY : base\AsyncLogging.cpp.i
+
+base\AsyncLogging.s: base\AsyncLogging.cpp.s
+
+.PHONY : base\AsyncLogging.s
+
+# target to generate assembly for a file
+base\AsyncLogging.cpp.s:
+	$(MAKE) -f CMakeFiles\web_server.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\web_server.dir\base\AsyncLogging.cpp.s
+.PHONY : base\AsyncLogging.cpp.s
+
 base\CountDownLatch.obj: base\CountDownLatch.cpp.obj
 
 .PHONY : base\CountDownLatch.obj
@@ -178,6 +205,87 @@ base\FileUtil.cpp.s:
 	$(MAKE) -f CMakeFiles\web_server.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\web_server.dir\base\FileUtil.cpp.s
 .PHONY : base\FileUtil.cpp.s
 
+base\LogFile.obj: base\LogFile.cpp.obj
+
+.PHONY : base\LogFile.obj
+
+# target to build an object file
+base\LogFile.cpp.obj:
+	$(MAKE) -f CMakeFiles\web_server.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\web_server.dir\base\LogFile.cpp.obj
+.PHONY : base\LogFile.cpp.obj
+
+base\LogFile.i: base\LogFile.cpp.i
+
+.PHONY : base\LogFile.i
+
+# target to preprocess a source file
+base\LogFile.cpp.i:
+	$(MAKE) -f CMakeFiles\web_server.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\web_server.dir\base\LogFile.cpp.i
+.PHONY : base\LogFile.cpp.i
+
+base\LogFile.s: base\LogFile.cpp.s
+
+.PHONY : base\LogFile.s
+
+# target to generate assembly for a file
+base\LogFile.cpp.s:
+	$(MAKE) -f CMakeFiles\web_server.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\web_server.dir\base\LogFile.cpp.s
+.PHONY : base\LogFile.cpp.s
+
+base\LogStream.obj: base\LogStream.cpp.obj
+
+.PHONY : base\LogStream.obj
+
+# target to build an object file
+base\LogStream.cpp.obj:
+	$(MAKE) -f CMakeFiles\web_server.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\web_server.dir\base\LogStream.cpp.obj
+.PHONY : base\LogStream.cpp.obj
+
+base\LogStream.i: base\LogStream.cpp.i
+
+.PHONY : base\LogStream.i
+
+# target to preprocess a source file
+base\LogStream.cpp.i:
+	$(MAKE) -f CMakeFiles\web_server.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\web_server.dir\base\LogStream.cpp.i
+.PHONY : base\LogStream.cpp.i
+
+base\LogStream.s: base\LogStream.cpp.s
+
+.PHONY : base\LogStream.s
+
+# target to generate assembly for a file
+base\LogStream.cpp.s:
+	$(MAKE) -f CMakeFiles\web_server.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\web_server.dir\base\LogStream.cpp.s
+.PHONY : base\LogStream.cpp.s
+
+base\Thread.obj: base\Thread.cpp.obj
+
+.PHONY : base\Thread.obj
+
+# target to build an object file
+base\Thread.cpp.obj:
+	$(MAKE) -f CMakeFiles\web_server.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\web_server.dir\base\Thread.cpp.obj
+.PHONY : base\Thread.cpp.obj
+
+base\Thread.i: base\Thread.cpp.i
+
+.PHONY : base\Thread.i
+
+# target to preprocess a source file
+base\Thread.cpp.i:
+	$(MAKE) -f CMakeFiles\web_server.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\web_server.dir\base\Thread.cpp.i
+.PHONY : base\Thread.cpp.i
+
+base\Thread.s: base\Thread.cpp.s
+
+.PHONY : base\Thread.s
+
+# target to generate assembly for a file
+base\Thread.cpp.s:
+	$(MAKE) -f CMakeFiles\web_server.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\web_server.dir\base\Thread.cpp.s
+.PHONY : base\Thread.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -214,12 +322,24 @@ help:
 	@echo ... rebuild_cache
 	@echo ... web_server
 	@echo ... edit_cache
+	@echo ... base/AsyncLogging.obj
+	@echo ... base/AsyncLogging.i
+	@echo ... base/AsyncLogging.s
 	@echo ... base/CountDownLatch.obj
 	@echo ... base/CountDownLatch.i
 	@echo ... base/CountDownLatch.s
 	@echo ... base/FileUtil.obj
 	@echo ... base/FileUtil.i
 	@echo ... base/FileUtil.s
+	@echo ... base/LogFile.obj
+	@echo ... base/LogFile.i
+	@echo ... base/LogFile.s
+	@echo ... base/LogStream.obj
+	@echo ... base/LogStream.i
+	@echo ... base/LogStream.s
+	@echo ... base/Thread.obj
+	@echo ... base/Thread.i
+	@echo ... base/Thread.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
