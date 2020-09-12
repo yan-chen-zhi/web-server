@@ -59,3 +59,28 @@ Thread::Thread(const ThreadFunc &func, const string &n) : started_(false), joine
     setDefaultName();
 }
 
+Thread::~Thread() {
+    if(started_ && !joined_)
+    {
+        pthread_datach(pthreadId_);
+    }
+}
+
+void Thread::setDefaultName() {
+    if(name_.empty())
+    {
+        char buf[32];
+        snprintf(buf, sizeof(buf), "Thread");
+        name_ = buf;
+    }
+}
+
+void Thread::start() {
+    assert(!started_);
+    started_ = true;
+    ThreadData* data= new ThreadData(func_, name_, &tid_, &latch_);
+    if(pthread_create(&pthreadId_, NULL, &startThread, data))
+    {
+        started_ = false
+    }
+}
